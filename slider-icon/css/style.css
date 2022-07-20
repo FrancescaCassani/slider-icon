@@ -1,0 +1,173 @@
+
+.mcl-hero-image-full-width {
+    display: flex;
+    justify-content: center;
+}
+
+.container {padding-left: 0 !important;padding-right: 0 !important;}
+
+
+.body-form-steps {margin-bottom:70px}
+.body-form-steps .wrapper {max-width: 100%;width: 1000px;display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;}
+/* .body-form-steps .mcl-hero-image-full-width{background-image: none; background-color:#fd7121;height: 100%;} */
+.body-form-steps .container{
+  max-width: 100%;
+  /* width: 1200px; */
+  background: #fff;
+  text-align: center;
+  margin: 0;
+  border-radius: 5px;
+  /* padding: 50px 35px 10px 35px; */
+}
+.container-fluid .last-prev.mobile {
+  margin:5px 0 25px 0;
+  background-color: #fff;
+  display: none;
+  color: #21364A;
+  align-items: center;
+}
+.body-form-steps .container .last-prev.mobile .iconify{ margin-right:12px; width:30px}
+
+.body-form-steps .container.fase-6 .last-prev {
+  display: block;
+}
+
+.body-form-steps .container .mcl-card-list-with-title .mcl-container .mcl-square-container .mcl-square {width: calc((100% / 1/2) - 10px)};
+
+.body-form-steps .container .form-outer{
+  width: 100%;
+  overflow: hidden;
+}
+
+.body-form-steps .form-outer .field{
+  width: 350px;
+  height: 45px;
+  margin: 45px 0;
+  display: flex;
+  position: relative;
+}
+.body-form-steps .field .label{
+  position: absolute;
+  top: -30px;
+  font-weight: 500;
+}
+
+.body-form-steps .field button{
+  width: 100%;
+  border: none;
+  background: #38B67F;
+  color: #fff;
+  border-radius: 10px 20px;
+}
+
+
+/* UTILITIES */
+.flex {display: flex;}
+.jcsp {justify-content: space-between;}
+.aic {align-items: center;}
+.jcsa {justify-content: space-around;}
+.m-t-25 {margin-top: 25px;}
+.m-b-25 {margin-bottom: 25px;}
+.m-r-30 {margin-right: 30px;}
+.m-r-20 {margin-right: 20px;}
+.none {display: none;}
+.show {display: block;}
+.isClicked {border: 2px solid #38B67F !important}
+.disabled {opacity:0.5 !important; cursor: no-drop !important;}
+.error-form {color: red;text-align: left;padding-top: 8px;}
+
+
+
+.body-form-steps .buttons-form {
+  display: flex;
+  justify-content: center;
+}
+
+.body-form-steps .container.form-multi-step{
+  display: flex;
+  justify-content: center;
+}
+.body-form-steps .container.form-multi-step .progress-step{
+  display: flex;
+  margin: 40px 0;
+  user-select: none;
+  border: 1px solid #38b67f;
+  border-radius: 15px 40px;
+  padding: 15px 5px;
+  /* width: 750px; */
+  width: 100%;
+}
+.body-form-steps .container.form-multi-step .progress-step .step{
+  text-align: center;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.body-form-steps .container.form-multi-step .progress-step .step p{
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.body-form-steps .form-multi-step .progress-step .step .bullet{
+  height: 51px;
+  width: 51px;
+  background: #F8F8F8;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+.body-form-steps .form-multi-step .progress-step .step .info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 12px;
+}
+.body-form-steps .form-multi-step .progress-step .step .info .steps{
+  font-size: 11px;
+  color: #12293E;
+}
+.form-multi-step .progress-step .step .info .steps-text{
+  font-size: 15px;
+  padding-top:6px;
+  color: #12293E;
+}
+
+.body-form-steps .progress-step .step .info .steps,
+.body-form-steps .progress-step .step .info .steps-text{display: none;}
+.body-form-steps .progress-step .step .info.active {width: 150px;}
+.body-form-steps .progress-step .step .info.active .steps,
+.body-form-steps .progress-step .step .info.active .steps-text {display: block !important;}
+.body-form-steps .progress-step .step .bullet.active {background: #38b67f;}
+.body-form-steps .progress-step .step .bullet.active .iconify{color: #fff !important;}
+
+.body-form-steps .progress-step .step .bullet .iconify{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 26%;
+  color: #12293E;
+}
+
+
+.buttons-form .previous{
+  transition: 0.5s !important;
+}
+.buttons-form .previous:hover{
+  background-color: #706ed0 !important;
+}
+.buttons-form .next{
+  transition: 0.5s !important;
+}
+.buttons-form .next:hover{
+  background-color: #31996c !important;
+}
+
